@@ -1,6 +1,7 @@
 # Description
   - This is my final year project which commenced from September 2020.
-  - I Have added the current methods used for image denoising which will be applied on the facial images. Also, Image Outpainting methodology report is added for facial image reconstruction.
+  - I Have added the current methods used for image denoising which will be applied on the facial images. Also, Image Outpainting methodology report is added for facial image reconstruction.m
+  - The project was completed in Google Colab, so if it is imported locally, make sure to download GoogleAPI to handle Drive data and also alter the path as required.
 
 
 # Concepts used:
