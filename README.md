@@ -1,41 +1,48 @@
-## This is my final year project which commenced from September 2020.
-
-## I Have added the current methods used for image denoising which will be applied on the facial images. Also, Image Outpainting methodology report is added for facial image reconstruction.
+# Description
+- This is my final year project which commenced from September 2020.
+- I Have added the current methods used for image denoising which will be applied on the facial images. Also, Image Outpainting methodology report is added for facial image reconstruction.
 
 
 # Concepts used:
 
-    Curriculum learning => refer "/literature-survey/Curriculum based learning.pdf"
+- [Curriculum learning](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/Curriculum%20based%20learning.pdf)
 
-    Image Super-Resolution model => refer "/literature-survey/Garber_Grossman_Johnson_Yu.pdf"
+- [Image Super-Resolution model](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/Garber_Grossman_Johnson-Yu.pdf)
 
-    Static Filtering Algorithms => refer "/literature-survey/median_filtering.pdf", 
-                                        "/literature-survey/average_filtering.pdf", 
-                                         "/literature-survey/weiner-filtering_with_directionlet_domain.pdf"
+- [Image Outpainting](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/image_outpainting.pdf)
 
-    Image Outpainting => refer "/literature-survey/Image-Outpainting.pdf"
+- [Noise Addition Algorithms](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/noisy%20images.pdf)
+
+### Static Noise Filtering Algorithm:
+
+- [Median Filtering](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/median_filtering.pdf)
+
+- [Average Filtering](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/average_filtering.pdf)
+
+- [Weiner Filtering with Directional Domain](https://github.com/CoderSsVartak/Image-Reconstruction/blob/master/literature_survey/weiner_filtering_with_directional_domain.pdf)
+
 
 
 
 # Libraries required:
 
-    1. Tensorflow/Keras
+1. Tensorflow/Keras
 
-    2. OpenCV
+2. OpenCV
 
-    3. Numpy
+3. Numpy
 
-    4. GoogleAPI (for downloading dataset from google drive)
+4. GoogleAPI (for downloading dataset from google drive)
 
-    5. PIL
+5. PIL
 
-    6. Joblib, pickle
+6. Joblib, pickle
 
-    7. random
+7. random
 
-    8. matplotlib
+8. matplotlib
 
-    9. random, datetime
+9. random, datetime
 
 
 
