@@ -45,3 +45,14 @@ Dataset
 
     Description: Add the file id when dataset is to be downloaded. 
     Data is stored in the form of a dictionary, function is present in the code file to convert it from dictionary to numpy array.
+
+Algorithm Description:
+
+        Bucket size = 300
+        Total buckets = 7
+        Total epochs done on each bucket = 120
+        For each training step j, combine bucket B1, B2, B3,......., Bi where i<=j
+        Vary sigmoid to increase the difficulty of the image dataset after each step.
+        Difficulty is determined by percentage of noise present in the image.
+        Quality of Image is determined using Peak Signal to Noise Ratio (PSNR).
+        Total Model loss = cosine_distance + Mean_Squared_Error.
