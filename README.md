@@ -1,9 +1,9 @@
-This is my final year project which commenced from September 2020.
+##This is my final year project which commenced from September 2020.
 
-I Have added the current methods used for image denoising which will be applied on the facial images. Also, Image Outpainting methodology report is added for facial image reconstruction.
+##I Have added the current methods used for image denoising which will be applied on the facial images. Also, Image Outpainting methodology report is added for facial image reconstruction.
 
 
-Concepts used:
+#Concepts used:
 
     Curriculum learning => refer "/literature-survey/Curriculum based learning.pdf"
 
@@ -17,7 +17,7 @@ Concepts used:
 
 
 
-Libraries required:
+#Libraries required:
 
     1. Tensorflow/Keras
 
@@ -39,20 +39,21 @@ Libraries required:
 
 
 
-Dataset
+#Dataset
 
-    Link:https://drive.google.com/file/d/1QZv7mWvvF8mnT0A2mA4OFSvxF1eqPd8g/view?usp=sharing
+    [Google Drive Dataset Link] (https://drive.google.com/file/d/1QZv7mWvvF8mnT0A2mA4OFSvxF1eqPd8g/view?usp=sharing)
 
-    Description: Add the file id when dataset is to be downloaded. 
-    Data is stored in the form of a dictionary, function is present in the code file to convert it from dictionary to numpy array.
+    ##Description: 
+        Add the file id when dataset is to be downloaded. 
+        Data is stored in the form of a dictionary, function is present in the code file to convert it from dictionary to numpy array.
 
-Algorithm Description:
+#Algorithm Description:
 
-        Bucket size = 300
-        Total buckets = 7
-        Total epochs done on each bucket = 120
-        For each training step j, combine bucket B1, B2, B3,......., Bi where i<=j
-        Vary sigmoid to increase the difficulty of the image dataset after each step.
-        Difficulty is determined by percentage of noise present in the image.
-        Quality of Image is determined using Peak Signal to Noise Ratio (PSNR).
-        Total Model loss = cosine_distance + Mean_Squared_Error.
+        *Bucket size = 300
+        *Total buckets = 7
+        *Total epochs done on each bucket = 120
+        *For each training step j, combine bucket B1, B2, B3,......., Bi where i<=j
+        *Vary sigmoid to increase the difficulty of the image dataset after each step.
+        *Difficulty is determined by percentage of noise present in the image.
+        *Quality of Image is determined using Peak Signal to Noise Ratio (PSNR).
+        *Total Model loss = cosine_distance + Mean_Squared_Error.
