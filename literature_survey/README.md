@@ -1,6 +1,6 @@
 # This folder contains IEEE papers, and published research in the field of Image Denoising and Image Outpainting
  
-##1. Traditional Noise filtering methods 
+## 1. Traditional Noise filtering methods 
   - Average/Mean filtering
   - Median filtering
   - Weiner filtering
