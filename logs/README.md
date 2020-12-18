@@ -8,7 +8,7 @@
 
   - logs[key] => dictionary where keys are the metrics and the loss.
  
-# Training stage:
+# 2. Training stage:
   
   - [X] Bucket 1: noisy images stats: mean = 0.0, sigmoid = 0.05
   - [X] Bucket 2: noisy images stats: mean = 0.0, sigmoid = 0.12
@@ -17,3 +17,5 @@
   - [ ] Bucket 5: noisy images stats: mean = 0.0, sigmoid = 0.65
   - [ ] Bucket 6: noisy images stats: mean = 0.0, sigmoid = 0.80
   - [ ] Bucket 7: noisy images stats: mean = 0.0, sigmoid = 0.95
+
+Logs are saved only after completion of the entire training step
