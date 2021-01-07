@@ -58,20 +58,17 @@
 # Algorithm Description:
 
   - Bucket size = 300
-  - Total buckets = 7
-  - Total epochs done on each bucket = 120
+  - Total buckets = 6 (Limited due to Higher Storage unavailability)
   - For each training step j, combine bucket B1, B2, B3,......., Bi where i<=j
   - Vary sigmoid to increase the difficulty of the image dataset after each step.
   - Difficulty is determined by percentage of noise present in the image.
   - Quality of Image is determined using Peak Signal to Noise Ratio (PSNR).
   - Total Model loss = cosine_distance + Mean_Squared_Error.
   - Optimizer used = Stochastic Gradient Descent 
-  - Learning rate for the first 90 epochs is 0.01, then reduced to 0.001 for the last 30 epochs
-  - Momentum for the first 50 epochs is 0.2, increased to 0.4 for the next 40 epochs and 0.6 for the last 30 epochs.
  
 # Future Works:
         
   - [x] Design Image Denoising model and start training
   - [x] Formulate metrics for evaluation of quality of images
-  - [ ] Train model on harder dataset
+  - [x] Train model on harder dataset
   - [ ] Work on Image Reconstruction model
