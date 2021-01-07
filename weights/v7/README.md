@@ -16,13 +16,13 @@
     
     
   - ## Hyper Parameters
-    -- Optimizer: Stochastic Gradient Descent
-    -- Epochs = 100
-    -- Learning Rate = 0.01 for the first 50 epochs and 0.001 for the next 50 epochs
-    -- Momentum = 0.4 for the first 50 epochs and 0.6 for the next 50 epochs.
+    - Optimizer: Stochastic Gradient Descent
+    - Epochs = 100
+    - Learning Rate = 0.01 for the first 50 epochs and 0.001 for the next 50 epochs
+    - Momentum = 0.4 for the first 50 epochs and 0.6 for the next 50 epochs.
     
   
   - ## Dataset Noise Sigmoid
-    -- Bucket 1: mean = 0.0, sigmoid = 0.05
-    -- Bucket 2: mean = 0.0, sigmoid = 0.1
-    -- Bucket 3: mean = 0.0, sigmoid = 0.2
+    - Bucket 1: mean = 0.0, sigmoid = 0.05
+    - Bucket 2: mean = 0.0, sigmoid = 0.1
+    - Bucket 3: mean = 0.0, sigmoid = 0.2
