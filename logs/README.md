@@ -8,14 +8,5 @@
 
   - logs[key] => dictionary where keys are the metrics and the loss.
  
-# 2. Training stage:
-  
-  - [X] Bucket 1: noisy images stats: mean = 0.0, sigmoid = 0.05
-  - [X] Bucket 2: noisy images stats: mean = 0.0, sigmoid = 0.12
-  - [ ] Bucket 3: noisy images stats: mean = 0.0, sigmoid = 0.35
-  - [ ] Bucket 4: noisy images stats: mean = 0.0, sigmoid = 0.50
-  - [ ] Bucket 5: noisy images stats: mean = 0.0, sigmoid = 0.65
-  - [ ] Bucket 6: noisy images stats: mean = 0.0, sigmoid = 0.80
-  - [ ] Bucket 7: noisy images stats: mean = 0.0, sigmoid = 0.95
 
-Logs are saved only after completion of the entire training step
+Logs are saved only after the model is trained on the final bucket of the version. The training is stopped when the model does not produce efficient results for the specified values of sigmoid of noise.
