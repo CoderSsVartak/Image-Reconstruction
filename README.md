@@ -74,3 +74,8 @@
   - [x] Formulate metrics for evaluation of quality of images
   - [x] Train model on harder dataset
   - [ ] Work on Image Reconstruction model
+ 
+# Results:
+  
+  - Image Denoising Model Output
+    <img src="/results/Result.png", alt="Image Denoising Model Output">
