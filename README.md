@@ -77,5 +77,5 @@
  
 # Results:
   
-  ## Image Denoising Model Output
+  ## Image Denoising Model Output on unseen faces (Validation Dataset)
   <img src="/results/Result.png">
