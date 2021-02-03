@@ -77,5 +77,5 @@
  
 # Results:
   
-  - Image Denoising Model Output
-    <img src="/results/Result.png", alt="Image Denoising Model Output">
+  ## Image Denoising Model Output
+  <img src="/results/Result.png">
