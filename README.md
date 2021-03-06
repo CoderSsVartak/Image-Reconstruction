@@ -72,10 +72,8 @@
  
 # Future Works:
         
-  - [x] Design Image Denoising model and start training
-  - [x] Formulate metrics for evaluation of quality of images
-  - [x] Train model on harder dataset
-  - [x] Work on Image Reconstruction model
+  - Train Image Denoising model using Curriculum learning on different sigmoid values and hyperparameters.
+  - Train Image Reconstruction model on larger dataset for better generalization
  
 # Results:
   
