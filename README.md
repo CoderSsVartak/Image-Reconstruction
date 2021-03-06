@@ -83,3 +83,4 @@
   ## Image Reconstruction Model Output on unseen faces
   <img src="/results/actual.png">
   <img src="/results/reconstructed.png">
+  <img src="/results/masked.png">
