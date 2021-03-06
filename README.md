@@ -57,6 +57,8 @@
    - Data is stored in the form of a dictionary, function is present in the code file to convert it from dictionary to numpy array.
    - Images are pickled using Joblib.
 
+## Could not upload GAN weights due to large size.
+
 # Algorithm Description:
 
   - Bucket size = 300
@@ -73,9 +75,13 @@
   - [x] Design Image Denoising model and start training
   - [x] Formulate metrics for evaluation of quality of images
   - [x] Train model on harder dataset
-  - [ ] Work on Image Reconstruction model
+  - [x] Work on Image Reconstruction model
  
 # Results:
   
   ## Image Denoising Model Output on unseen faces (Validation Dataset)
   <img src="/results/Result.png">
+  
+  ## Image Reconstruction Model Output on unseen faces
+  <img src="/results/actual.png">
+  <img src="/results/reconstructed.png">
