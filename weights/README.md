@@ -2,11 +2,11 @@
 
 # Title
 
-- Image_Denoising_v5.{bucket_num-1}_Bucket{bucket_num}_{datetime(IST)}.h5
+- Image_Denoising_v9.{bucket_num-1}_Bucket{bucket_num}_{datetime(IST)}.h5
 
 # Training
 
-  - A total of 7 training steps is planned, each step having 120 epochs.
+  - A total of 6 training steps is planned, each step having 120 epochs.
   - Weights are saved after 25, 50, 70, 90 and 120 epochs in each training step.
 
 # Consists of three versions:
