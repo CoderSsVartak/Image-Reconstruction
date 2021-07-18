@@ -1,4 +1,4 @@
-# This folder consists of the pickle files with the training logs after completion of each bucket training.
+# This folder consists of the pickle files with the training logs for Image Denoising model after completion of each bucket training.
 
 # 1. Format of data:
 
@@ -10,3 +10,5 @@
  
 
 Logs are saved only after the model is trained on the final bucket of the version. The training is stopped when the model does not produce efficient results for the specified values of sigmoid of noise.
+
+For Image Reconstruction logs, check the Google Drive link mentioned [here](https://github.com/CoderSsVartak/Image-Reconstruction#readme)
