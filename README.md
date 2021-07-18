@@ -51,13 +51,21 @@
 # Dataset
 
   [Google Drive Dataset Link](https://drive.google.com/file/d/1QZv7mWvvF8mnT0A2mA4OFSvxF1eqPd8g/view?usp=sharing)
+  ## Steps to load dataset on Google Colab:
+  - Copy this file in the root directory of your Google Drive.
+  - Authenicate your google account on which the dataset is stored on google colab (Run the cells of google colab, it contains automated code to authenticate your account).
 
   ## Description: 
    - Add the file id (1QZv7mWvvF8mnT0A2mA4OFSvxF1eqPd8g) when dataset is to be downloaded. (Only when using colab)
    - Data is stored in the form of a dictionary, function is present in the code file to convert it from dictionary to numpy array.
    - Images are pickled using Joblib.
 
-## Could not upload GAN weights due to large size.
+## GAN weights are uploaded on Drive:
+   - [Generator Weight](https://drive.google.com/file/d/1MTh4vtXPkZVNxOoHgYzdNo-u4yIFyFD0/view?usp=sharing)
+   - [Discriminator Weight](https://drive.google.com/file/d/1qBrLrgz8Xvk56Pujzsrxb8dF8_KM_qvk/view?usp=sharing)
+   - [Log File](https://drive.google.com/file/d/1TrQX-av3s0Vg608rTdhkGZhPvGAZtyol/view?usp=sharing)
+
+  To load the Image Reconstruction weights, download them from the link above and upload them on the google colab before executing the code. For Image Denoising Weights, the weights are uploaded [here](https://github.com/CoderSsVartak/Image-Reconstruction/tree/master/weights/v9)
 
 # Algorithm Description:
 
