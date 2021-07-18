@@ -46,7 +46,8 @@
 
   9. random, datetime
 
-
+# Note: Dataset is present on Google Drive and is automatically downloaded from your google drive. Make sure to copy the dataset into your drive from the link mentioned below. 
+# In order to run the code on local system, download the dataset in your local system from the link mentioned below. Make sure to hide out the Google libraries imported as they are available only on Colab. No need to run Google account authentication code cell.
 
 # Dataset
 
@@ -56,7 +57,6 @@
   - Authenicate your google account on which the dataset is stored on google colab (Run the cells of google colab, it contains automated code to authenticate your account).
 
   ## Description: 
-   - Add the file id (1QZv7mWvvF8mnT0A2mA4OFSvxF1eqPd8g) when dataset is to be downloaded. (Only when using colab)
    - Data is stored in the form of a dictionary, function is present in the code file to convert it from dictionary to numpy array.
    - Images are pickled using Joblib.
 
