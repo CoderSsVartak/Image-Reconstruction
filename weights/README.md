@@ -13,4 +13,7 @@
 
   - Version 5
   - Version 6
-  - Version 7
+  - Version 9 (LATEST)
+ 
+
+For Weights of Image Reconstruction model, check the Google Drive Link mentioned [here](https://github.com/CoderSsVartak/Image-Reconstruction#readme)
